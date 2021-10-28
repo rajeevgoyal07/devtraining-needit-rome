@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Data" max_length="40" name="x_58872_needit_test" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=client" label="client" max_length="65535" name="u_client" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=created" label="created" max_length="65535" name="u_created" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="65535" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=id" label="id" max_length="40" name="u_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=priority" label="priority" max_length="65535" name="u_priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=type" label="type" max_length="65535" name="u_type" type="string"/>
+    </element>
+</database>
